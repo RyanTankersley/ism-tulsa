@@ -1,4 +1,4 @@
-# iSM-tulsa
+# ism-tulsa
 The potential home page for ISM Tulsa
 
 I made this site for International Student Ministires of Tulsa.
