@@ -108,7 +108,7 @@ opacity: 0.95 !important;
 filter: alpha(opacity=95) !important;
 }
 
-.item .img-responsive {cursor:url(../img/cross.png),auto;}
+.item .img-responsive {cursor:pointer;}
 
 /* Preloader */
 #preloader {
@@ -1199,6 +1199,10 @@ p.copyright {
 	margin: 15px 0 0;
 }
 
+.list-inline > .show-mobile-only {
+    display: none; 
+}
+
 @media (max-width: 767px) {
 	.intro-message {
 		padding-bottom: 15%;
@@ -1212,6 +1216,14 @@ p.copyright {
 		display: block;
 		margin-bottom: 20px;
 		padding: 0;
+	}
+
+	ul.intro-social-buttons > .hide-mobile {
+		display: none;
+	}
+
+	ul.intro-social-buttons > .show-mobile-only {
+		display: block;
 	}
 
 	ul.intro-social-buttons > li:last-child {
