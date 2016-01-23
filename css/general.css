@@ -1222,6 +1222,9 @@ p.copyright {
 		display: none;
 	}
 
+    div > .hide-mobile {
+        display: none;
+    }
 	ul.intro-social-buttons > .show-mobile-only {
 		display: block;
 	}
