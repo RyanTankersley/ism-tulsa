@@ -34,7 +34,7 @@
 </head>
 
 <body id="home">
-    <nav class="navbar-default" role="navigation">
+    <nav class="navbar navbar-default" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -63,5 +63,15 @@
                <script data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
            </div> 
     </div>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        console.log('rawr'); 
+        var navMain = $(".navbar-collapse");
+
+        navMain.on("click", "a", null, function () {
+            navMain.collapse('hide');
+        });
+    </script>
 </body>
 </html>

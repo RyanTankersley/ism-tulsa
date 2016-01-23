@@ -1203,6 +1203,10 @@ p.copyright {
     display: none; 
 }
 
+div > .show-mobile-only {
+    display: none;
+}
+    
 @media (max-width: 767px) {
 	.intro-message {
 		padding-bottom: 15%;
@@ -1225,6 +1229,11 @@ p.copyright {
     div > .hide-mobile {
         display: none;
     }
+    
+    div > .show-mobile-only {
+        display: block;
+    }
+    
 	ul.intro-social-buttons > .show-mobile-only {
 		display: block;
 	}
